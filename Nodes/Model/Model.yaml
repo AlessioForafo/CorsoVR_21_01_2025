@@ -2,6 +2,7 @@ Name: Model
 Type: ModelCategoryFolder
 Children:
 - Name: Variable1
+  Id: g=2bc131f6e2beadfe9daf96a203b9d12f
   Type: BaseDataVariableType
   DataType: Int32
 - Name: Variable2
@@ -12,3 +13,49 @@ Children:
   Type: BaseDataVariableType
   DataType: Float
   Value: 3.1465656757354736
+- Name: MyTank1
+  Id: g=38ebc92d03d4e885552e43a43686bf97
+  Type: MyTank
+  Children:
+  - Name: LivelloMassimo
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 100
+  - Name: Livello
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Allarme
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: MyTank2
+  Id: g=2b1f76203dbe9e871e47843fe2199615
+  Type: MyTank
+  Children:
+  - Name: LivelloMassimo
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 200
+  - Name: Livello
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Allarme
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: MyTank3
+  Id: g=46035e850ae5842e8d4abc003b243883
+  Type: MyTank
+  Children:
+  - Name: LivelloMassimo
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 150
+  - Name: Livello
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Allarme
+    Type: BaseDataVariableType
+    DataType: Boolean
+- File: MieiTipi/MieiTipi.yaml
+- Name: AllarmiPLC
+  Type: BaseDataVariableType
+  DataType: Int32

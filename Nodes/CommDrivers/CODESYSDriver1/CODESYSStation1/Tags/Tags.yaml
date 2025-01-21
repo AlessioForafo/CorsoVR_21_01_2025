@@ -393,7 +393,7 @@ Children:
         Value: 72
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=10;Encoding
       - Name: StartArrayIndex
         Type: BaseDataVariableType
         DataType: UInt32

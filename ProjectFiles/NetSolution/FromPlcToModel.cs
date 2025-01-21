@@ -8,6 +8,12 @@ using FTOptix.NetLogic;
 using System.Linq;
 using UAManagedCore;
 using FTOptix.WebUI;
+using FTOptix.Store;
+using FTOptix.SQLiteStore;
+using FTOptix.RAEtherNetIP;
+using FTOptix.S7TCP;
+using FTOptix.Alarm;
+using FTOptix.EventLogger;
 
 #endregion
 

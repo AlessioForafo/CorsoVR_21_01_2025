@@ -1,0 +1,16 @@
+Name: MieiTipi
+Type: FolderType
+Children:
+- Name: MyTank
+  Id: g=57af3d902f9413a53dbd10d7cbfb6386
+  Supertype: BaseObjectType
+  Children:
+  - Name: LivelloMassimo
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Livello
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Allarme
+    Type: BaseDataVariableType
+    DataType: Boolean

@@ -1148,3 +1148,5 @@ Children:
         ModellingRule: Optional
         Value: 100.0
 - File: Screens/Screens.yaml
+- File: MieiWidget/MieiWidget.yaml
+- File: BaseControls/BaseControls.yaml
