@@ -1,2 +1,14 @@
 Name: Model
 Type: ModelCategoryFolder
+Children:
+- Name: Variable1
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Variable2
+  Type: BaseDataVariableType
+  DataType: Boolean
+- File: MyTags/MyTags.yaml
+- Name: Variable3
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 3.1465656757354736

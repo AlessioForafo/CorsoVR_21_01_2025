@@ -55,7 +55,6 @@ Children:
 - File: Loggers/Loggers.yaml
 - File: DataStores/DataStores.yaml
 - File: Reports/Reports.yaml
-- File: 'OPC-UA/OPC-UA.yaml'
 - File: MQTT/MQTT.yaml
 - File: CommDrivers/CommDrivers.yaml
 - File: NetLogic/NetLogic.yaml
@@ -63,3 +62,4 @@ Children:
 - File: System/System.yaml
 - File: Translations/Translations.yaml
 - File: Retentivity/Retentivity.yaml
+- File: 'OPC-UA/OPC-UA.yaml'
